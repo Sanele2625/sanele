@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<title>CONTACT FORM</title>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="contact.html">CONTACT</a>
+        <a href="about.html">ABOUT</a>
+        <a class="active"href="index.html">HOME</a>
+    </div>
+
+  <div class="contact-title">
+        <h1>FANCY HAVING A CHAT?</h1>
+        <h2>THEN FEEL FREE TO DROP ME A MESSAGE</h2>
+  </div>
+  
+  <div class="contact-form">
+     <form id="contact-form">
+     <input name="name" id="name" type="text" class="form-control" placeholder="Your Name" required>
+     <br>
+     <input name="email" id="email"type="email" class="form-control" placeholder="Your Email" required>
+     <br>
+
+     <textarea name="message" id="message" class="form-control" placeholder="Message" rows="4" required></textarea>
+     <br>
+     <div class="g-recaptcha" data-sitekey="6Ld_LNgUAAAAAIX3SKF579HKIEj0SfLSZCwYAOzh"></div>
+      <br/>
+     <input type="submit" class="form-control submit" value="SEND MESSAGE">
+     </form>
+</div>
+<script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+<script scr="form.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,117 @@
+ /* Style the <body> element */
+ body{
+      background-image: url('https://wallpapercave.com/wp/wp4048618.png');
+      background-repeat: repeat;
+      background-size: cover;
+      background-position: 0 0;
+      animation: animate 15s linear infinite;
+  }
+  /* Style the <h1> element */
+  h1{
+    font-size: 40px;
+    color: green;
+  }
+  /* Style the <h3> element */
+  h3{
+    font-size: 30px;
+    color: darkgreen;
+  }
+  /* Style the <h4> element */
+  h4{
+    font-size: 30px;
+    color: darkgreen;
+  }
+  /* Style the <p> element */
+ p{
+   text-transform: uppercase;
+ } 
+  /* Style the top navigation bar */
+  .navbar {
+    overflow: hidden; /* Hide overflow */
+    background-color: #333; /* Dark background color */
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: right; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right; /* Float a link to the right */
+  }
+  
+  /* Change color on hover/mouse-over */
+  .navbar a:hover {
+    background-color: #ddd; /* Grey background color */
+    color: black; /* Black text color */
+  }
+  /* Ensure proper sizing */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Column container */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  /* Sidebar/left column */
+  .left {
+    flex: 33.3%; /* Set the width of the sidebar */
+    background-color: aquamarine; /* aquamarine background color */
+    padding: 20px; /* Some padding */
+  }
+  
+  /* Middle column */
+  .middle {
+    flex: 33.33%; /* Set the width of the main content */
+    background-color: white; /* White background color */
+    padding: 20px; /* Some padding */
+  }
+  
+  /* Right column */
+  .right {
+    flex: 33.33%; /* Set the width of the main content */
+    background-color: aqua; /* White background color */
+    padding: 20px; /* Some padding */
+  }
+   
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#333;
+    color: white;
+    text-align: center;
+  }
+
+  * {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #4CAF50;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.php {width: 60%; background-color: #808080;}
+.sql {width: 60%; background-color: greenyellow;}
+
